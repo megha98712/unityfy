@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://www.velocityhousing.in/uploads/pages/inches-to-metre..jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: transparent;
+    padding: 30px;
+    border-radius: 15px;
+    text-shadow: 0 0 5px rgba(0,0,0,0.7);
+    width: 350px;
+}
+
+h1, p { color: #fff; }
+
+.converter { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; }
+
+input, select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+}
+
+button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    background: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover { background: #45a049; }
+
+#result {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
